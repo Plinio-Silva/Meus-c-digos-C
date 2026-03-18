@@ -1,0 +1,18 @@
+programa // Autor: Plínio Tiago da Silva
+{        // Questão 07 - Conversão BRL para USD
+
+    funcao inicio()
+    {
+        real valor_brl, taxa_cambio, valor_usd
+
+        escreva("Digite o valor em reais (BRL): R$ ")
+        leia(valor_brl)
+
+        escreva("Digite a taxa de câmbio (valor de 1 USD em BRL): ")
+        leia(taxa_cambio)
+
+        valor_usd = valor_brl / taxa_cambio
+
+        escreva("Valor convertido em dólares (USD): $ ", valor_usd)
+    }
+}
