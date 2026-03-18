@@ -1,0 +1,18 @@
+programa // Autor: Plínio Tiago da Silva
+{        // Questão 05 - Cálculo do salário líquido
+
+    funcao inicio()
+    {
+        real salario_bruto, descontos, salario_liquido
+
+        escreva("Digite o salário bruto: R$ ")
+        leia(salario_bruto)
+
+        escreva("Digite o total de descontos: R$ ")
+        leia(descontos)
+
+        salario_liquido = salario_bruto - descontos
+
+        escreva("O salário líquido é: R$ ", salario_liquido)
+    }
+}
