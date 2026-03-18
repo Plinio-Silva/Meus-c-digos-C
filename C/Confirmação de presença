@@ -1,0 +1,27 @@
+programa // Autor: Plínio Tiago da Silva
+{        // Questão 06 - Confirmação de presença
+
+    funcao inicio()
+    {
+        cadeia nome, resposta
+        logico confirmou
+
+        escreva("Digite o nome da pessoa: ")
+        leia(nome)
+
+        escreva("A pessoa confirmou presença? (sim/nao): ")
+        leia(resposta)
+
+        // Convertendo texto para booleano
+        se (resposta == "sim") 
+            confirmou = verdadeiro
+        senao
+            confirmou = falso
+
+        // Mensagem personalizada
+        se (confirmou)
+            escreva(nome, " confirmou presença no evento.")
+        senao
+            escreva(nome, " NÃO confirmou presença no evento.")
+    }
+}
