@@ -1,0 +1,22 @@
+programa // Autor: Plínio Tiago da Silva
+{        // Questão 04 - Cálculo do custo de combustível
+
+    funcao inicio()
+    {
+        real distancia, consumo, preco, litros, custo_total
+
+        escreva("Digite a distância total da viagem (km): ")
+        leia(distancia)
+
+        escreva("Digite o consumo do carro (km por litro): ")
+        leia(consumo)
+
+        escreva("Digite o preço do litro do combustível: R$ ")
+        leia(preco)
+
+        litros = distancia / consumo
+        custo_total = litros * preco
+
+        escreva("O custo total da viagem será: R$ ", custo_total)
+    }
+}
