@@ -1,0 +1,19 @@
+programa // Autor: Plínio Tiago da Silva
+{        // Questão 02 - Divisão da conta igualmente
+
+    funcao inicio()
+    {
+        real conta, valor_por_pessoa
+        inteiro pessoas
+
+        escreva("Digite o valor total da conta: R$ ")
+        leia(conta)
+
+        escreva("Digite o número de pessoas: ")
+        leia(pessoas)
+
+        valor_por_pessoa = conta / pessoas
+
+        escreva("Cada pessoa deve pagar: R$ ", valor_por_pessoa)
+    }
+}
