@@ -1,0 +1,18 @@
+programa // Autor: Plínio Tiago da Silva
+{        // Questão 03 - Economia mensal de água
+
+    funcao inicio()
+    {
+        real consumo_diario, reducao_diaria, economia_mensal
+
+        escreva("Digite o consumo médio diário (em litros): ")
+        leia(consumo_diario)
+
+        escreva("Digite a redução estimada por dia (em litros): ")
+        leia(reducao_diaria)
+
+        economia_mensal = reducao_diaria * 30
+
+        escreva("Total economizado em 30 dias: ", economia_mensal, " litros")
+    }
+}
